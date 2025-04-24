@@ -1,4 +1,6 @@
 // Sudoku puzzle verifier and solver
+// COMPILE: gcc sudoku.c  -lm -pthread
+// RUN: ./a.out text.tx
 
 #include <assert.h>
 #include <pthread.h>
